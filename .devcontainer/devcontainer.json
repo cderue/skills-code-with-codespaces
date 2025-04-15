@@ -12,12 +12,7 @@
            "extensions": [
                "GitHub.copilot"
            ]
-       },
-       "codespaces": {
-           "openFiles": [
-               "codespace.md"
-           ]
        }
    },
-   "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+   "postCreateCommand": "npm install supabase --save-dev && npx supabase init && npx supabase start"
 }
